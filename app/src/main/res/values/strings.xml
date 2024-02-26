@@ -1,0 +1,5 @@
+<resources>
+    <string name="txt_inicio">Welcome !!!</string>
+    <string name="txt_inicio_two">This is a great image</string>
+    <string name="app_name" translatable="false">My Image</string>
+</resources>
