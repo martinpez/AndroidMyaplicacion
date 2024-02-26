@@ -2,4 +2,5 @@
 <resources>
     <string name="txt_inicio">Bienvenido !!!</string>
     <string name="txt_inicio_two">Esta es una imagen grandiosa</string>
+    <string name="txt_derechos">© 2024 Martinpez. Reservados todos los derechos.</string>
 </resources>

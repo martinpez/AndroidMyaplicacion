@@ -35,14 +35,37 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="335dp"
-        android:layout_height="326dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toEndOf="@+id/txt_derechos"
+        app:srcCompat="@drawable/android" />
+
+    <TextView
+        android:id="@+id/txt_derechos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/txt_derechos"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.177"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="263dp"
+        android:layout_height="324dp"
         app:layout_constraintBottom_toTopOf="@+id/txt_inicio"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.5"
-        app:srcCompat="@drawable/android" />
+        app:srcCompat="@drawable/apple" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
